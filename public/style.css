@@ -13,7 +13,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background-size: cover;
     }
+   
     h1{
         font-size: 2.5rem;
     }
@@ -23,7 +25,7 @@
     }
     .wish{
         transform: translateY(-100%);
-
+       
     }
     #getStarBtn {
       padding: 10px 20px;
@@ -68,3 +70,4 @@
         z-index: -5;
         opacity: 0;
     }
+   

@@ -44,7 +44,7 @@
         
         resultElement.classList.add('hide');
         location.reload();
-      }, 10000);
+      }, 20000);
       
     };
 

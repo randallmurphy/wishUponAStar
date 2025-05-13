@@ -35,7 +35,7 @@ const getRandomStar = () => {
           star.classList.add('hide');
           
           wish.classList.remove('hide')
-        }, 5000);
+        }, 10000);
 
 }
 
