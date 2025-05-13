@@ -1,0 +1,70 @@
+   
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url(/src/images/shootstar1pm1.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      height: 100vh;
+      width:100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    #wish {
+      font-size: 2.5rem;
+      margin-top: 20px;
+    }
+    .wish{
+        transform: translateY(-100%);
+
+    }
+    #getStarBtn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+       
+    #wishInput{
+      border-radius: 14px;
+      height: 29px;
+      width: 680px;      
+      border: none;
+      font-size: 20px;
+      text-align: center;
+    }      
+    #makeWishBtn{
+        padding: 10px 20px;
+      font-size: 1rem;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    #wishResult{
+        letter-spacing: 2px;
+        padding: 3px;
+        font-size: 20px;
+        height: auto;
+        background-color: hsl(212, 100%, 50%);
+        border: 4px solid greenyellow;
+        border-radius: 25px;
+        width: 90%;
+        margin-bottom: 20%;
+    }
+    .hide{
+        z-index: -5;
+        opacity: 0;
+    }
